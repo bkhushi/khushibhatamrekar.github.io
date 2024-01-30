@@ -1,0 +1,277 @@
+body {
+    /* Remove default page margins for the entire body element. */
+    margin: 0px; 
+}
+
+nav {
+    padding-bottom: 1px;
+    padding-right: 30px;
+    /* nav property 1 */
+    border-bottom: 3px solid #FFE5E5;
+    border-top: 3px solid #FFE5E5;
+    /* nav property 2 */
+    background-color: #AC87C5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* nav anchor properties */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #FFE5E5;
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+.Introduction {
+    /* background color of one section */
+    background-color: #E0AED0;
+    margin: 0px;
+    /* padding on one section */
+    padding: 20px;
+    text-align: center;
+    /* font color 1 */
+    color: #FFE5E5;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px #AC87C5 solid;
+}
+
+.Introduction h1 {
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-family: 'Tangerine', cursive;
+    /* font size 1 */
+    font-size: 120px;
+    text-shadow: 1px 1px 1px #756AB6;
+}
+
+.Introduction h2 {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Experience {
+    font-family: 'Oswald', sans-serif;
+    color: #AC87C5;
+    padding: 50px;
+    background-color: #FFE5E5;
+}
+
+.Experience h2 {
+    color: #AC87C5;
+}
+
+.about {
+    margin-inline-start: 100px;
+    margin-block-start: 50px;
+}
+
+.center {
+    padding-top: 265px;
+    text-align: center;
+}
+
+.center2 {
+    text-align: center;
+}
+
+.Experience p {
+    /* font color 2 */
+    color: #756AB6;
+    /* font size 2 */
+    font-size: large;
+}
+
+.Experience h3 {
+    justify-content: center;
+    color: #756AB6;
+}
+
+/* image 1 absolute positioning */
+.face {
+    position: absolute;
+    display: block;
+    /* top: 80%;
+    left:41%; */
+
+    margin-left: 38%;
+    /* border of image */
+    border-radius: 50%;
+    border: 2px solid #AC87C5;
+}
+
+/* image 2 absolute positioning */
+.smile {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #AC87C5;
+    top: 118%;
+    left: 52%;
+}
+
+hr {
+    /* border properties of horizontal rule */
+    border: 1px dashed #AC87C5;
+}
+
+/* card layout */
+.card {
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* style images withing the card */
+.cardpic {
+    border-radius: 25%;
+    border: 0px;
+    width: 300px;
+    padding: 20px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container h3 {
+    display: grid;
+    place-content: center;
+}
+
+/* three-col display grid */
+.three-col {
+    display: grid;
+    justify-content: center;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px, 100px;
+    width: fit-content;
+    margin-left: 10%;
+}
+
+/* languages using grid */
+.card1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+/* experience using grid */
+.card2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+/* skills using grid */
+.card3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.contactPage {
+    padding-bottom: 40px;
+    background-color: #FFE5E5;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contactPage h1 {
+    color: #756AB6;
+    padding: 20px;
+    margin: 0px;
+}
+
+.contactcard {
+    border: 2px solid #AC87C5;
+    padding: 10px;
+    color: #756AB6;
+    margin-left: 37%;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 350px;
+}
+
+/* class one-col */
+.one-col p {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+}
+
+textarea {
+    border: 1px solid #AC87C5;
+}
+
+/* styling input elements */
+input {
+    border: 1px solid #AC87C5;
+    width: 70%;
+    padding: 3px;
+    margin: 8px;
+}
+
+input[type="submit" i] {
+    margin-left: 35%;
+    color: #756AB6;
+    width: 30%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+input[type="submit" i]:hover {
+    color: white;
+    background-color: #756AB6;
+    cursor: pointer;
+}
+
+a {
+    /* color of anchor text */
+    color: #756AB6;
+    /* remove underline of links */
+    text-decoration: none;
+}
+
+/* hover state of link */
+a:hover {
+    text-shadow: 0.5px 0.5px 0.5px #aaa;
+}
+
+/* footer properties */
+footer {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    border-bottom: 3px solid #FFE5E5;
+    border-top: 3px solid #FFE5E5;
+    background-color: #AC87C5;
+    /* footer is a flex */
+    display: flex;
+    /* children in center */
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer anchor properties */
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 5px 10px;
+}
+
+footer a:hover {
+    color: #FFE5E5;
+}
